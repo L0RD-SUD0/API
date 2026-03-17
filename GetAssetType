@@ -3,6 +3,7 @@ if MarketplaceService == nil then
 end
 function getassettype(id)
     if tonumber(id) == 0 or tonumber(id) == nil then
+        return
     end
     local a = MarketplaceService:GetProductInfoAsync(tonumber(id)).AssetTypeId
     if tonumber(a) == 1 then
