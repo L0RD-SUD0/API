@@ -1,0 +1,128 @@
+function getassettype(id)
+    local a = MarketplaceService:GetProductInfoAsync(id).AssetTypeId
+    if tonumber(a) == 1 then
+        return "Image"
+    elseif tonumber(a) == 2 then
+        return "TShirt"
+    elseif tonumber(a) == 3 then
+        return "Audio"
+    elseif tonumber(a) == 4 then
+        return "Mesh"
+    elseif tonumber(a) == 5 then
+        return "Lua"
+    elseif tonumber(a) == 8 then
+        return "Hat"
+    elseif tonumber(a) == 9 then
+        return "Place"
+    elseif tonumber(a) == 10 then
+        return "Model"
+    elseif tonumber(a) == 11 then
+        return "Shirt"
+    elseif tonumber(a) == 12 then
+        return "Pants"
+    elseif tonumber(a) == 13 then
+        return "Decal"
+    elseif tonumber(a) == 17 then
+        return "Head"
+    elseif tonumber(a) == 18 then
+        return "Face"
+    elseif tonumber(a) == 19 then
+        return "Gear"
+    elseif tonumber(a) == 21 then
+        return "Badge"
+    elseif tonumber(a) == 24 then
+        return "Animation"
+    elseif tonumber(a) == 27 then
+        return "Torso"
+    elseif tonumber(a) == 28 then
+        return "RightArm"
+    elseif tonumber(a) == 29 then
+        return "LeftArm"
+    elseif tonumber(a) == 30 then
+        return "LeftLeg"
+    elseif tonumber(a) == 31 then
+        return "RightLeg"
+    elseif tonumber(a) == 32 then
+        return "Package"
+    elseif tonumber(a) == 34 then
+        return "GamePass"
+    elseif tonumber(a) == 38 then
+        return "Plugin"
+    elseif tonumber(a) == 40 then
+        return "MeshPart"
+    elseif tonumber(a) == 41 then
+        return "HairAccessory"
+    elseif tonumber(a) == 42 then
+        return "FaceAccessory"
+    elseif tonumber(a) == 43 then
+        return "NeckAccessory"
+    elseif tonumber(a) == 44 then
+        return "ShoulderAccessory"
+    elseif tonumber(a) == 45 then
+        return "FrontAccessory"
+    elseif tonumber(a) == 46 then
+        return "BackAccessory"
+    elseif tonumber(a) == 47 then
+        return "WaistAccessory"
+    elseif tonumber(a) == 48 then
+        return "ClimbAnimation"
+    elseif tonumber(a) == 49 then
+        return "DeathAnimation"
+    elseif tonumber(a) == 50 then
+        return "FallAnimation"
+    elseif tonumber(a) == 51 then
+        return "IdleAnimation"
+    elseif tonumber(a) == 52 then
+        return "JumpAnimation"
+    elseif tonumber(a) == 53 then
+        return "RunAnimation"
+    elseif tonumber(a) == 54 then
+        return "SwimAnimation"
+    elseif tonumber(a) == 55 then
+        return "WalkAnimation"
+    elseif tonumber(a) == 56 then
+        return "PoseAnimation"
+    elseif tonumber(a) == 57 then
+        return "EarAccessory"
+    elseif tonumber(a) == 58 then
+        return "EyeAccessory"
+    elseif tonumber(a) == 61 then
+        return "EmoteAnimation"
+    elseif tonumber(a) == 62 then
+        return "Video"
+    elseif tonumber(a) == 64 then
+        return "TShirtAccessory"
+    elseif tonumber(a) == 65 then
+        return "ShirtAccessory"
+    elseif tonumber(a) == 66 then
+        return "PantsAccessory"
+    elseif tonumber(a) == 67 then
+        return "JacketAccessory"
+    elseif tonumber(a) == 68 then
+        return "SweaterAccessory"
+    elseif tonumber(a) == 69 then
+        return "ShortsAccessory"
+    elseif tonumber(a) == 70 then
+        return "LeftShoeAccessory"
+    elseif tonumber(a) == 71 then
+        return "RightShoeAccessory"
+    elseif tonumber(a) == 72 then
+        return "DressSkirtAccessory"
+    elseif tonumber(a) == 73 then
+        return "FontFamily"
+    elseif tonumber(a) == 76 then
+        return "EyebrowAccessory"
+    elseif tonumber(a) == 77 then
+        return "EyelashAccessory"
+    elseif tonumber(a) == 78 then
+        return "MoodAnimation"
+    elseif tonumber(a) == 79 then
+        return "DynamicHead"
+    elseif tonumber(a) == 88 then
+        return "FaceMakeup"
+    elseif tonumber(a) == 89 then
+        return "LipMakeup"
+    elseif tonumber(a) == 90 then
+        return "EyeMakeup"
+    end
+end
