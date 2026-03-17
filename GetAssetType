@@ -2,7 +2,9 @@ if MarketplaceService == nil then
     MarketplaceService = game:GetService("MarketplaceService")
 end
 function getassettype(id)
-    local a = MarketplaceService:GetProductInfoAsync(id).AssetTypeId
+    if tonumber(id) == 0 or tonumber(id) == nil then
+    end
+    local a = MarketplaceService:GetProductInfoAsync(tonumber(id)).AssetTypeId
     if tonumber(a) == 1 then
         return "Image"
     elseif tonumber(a) == 2 then
