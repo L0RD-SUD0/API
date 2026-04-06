@@ -1,2 +1,13 @@
-berry = "3691"
-dubairip = "10348"
+local berry = "3691"
+local dubairip = "10348"
+if game.PlaceId == "8481844229" or game.PlaceId == 8481844229 then
+    wefiwefiwefihuhui = berry
+elseif game.PlaceId == "122485613019196" or game.PlaceId == 122485613019196 then
+    wefiwefiwefihuhui = dubairip
+else
+		game:GetService("StarterGui"):SetCore("SendNotification", {
+			Title = "NightCLAWZ",
+			Text = "This game is not support!",
+			Duration = 10
+		})
+end
