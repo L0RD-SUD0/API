@@ -7,4 +7,5 @@ elseif game.PlaceId == "122485613019196" or game.PlaceId == 122485613019196 then
     return dubairip
 elseif game.PlaceId == "4924922222" or game.PlaceId == 4924922222 then
 	return brokhaun
+else return "Alr"
 end
