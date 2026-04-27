@@ -13,4 +13,5 @@ else
 			Text = "This game is not support!",
 			Duration = 10
 		})
+return "not support"
 end
