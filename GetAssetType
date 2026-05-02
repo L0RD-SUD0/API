@@ -1,7 +1,7 @@
 if MarketplaceService == nil then
     MarketplaceService = game:GetService("MarketplaceService")
 end
-function getassettype(id)
+return function(id)
     if tonumber(id) == 0 or tonumber(id) == nil then
         return
     end
