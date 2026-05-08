@@ -2,10 +2,11 @@ if MarketplaceService == nil then
     MarketplaceService = game:GetService("MarketplaceService")
 end
 return function(id)
-    if tonumber(id) == 0 or tonumber(id) == nil then
+    local sdfafs = tonumber(id)
+    if sdfafs == 0 or sdfafs == nil or sdfafs == "0" or sdfafs == "" or sdfafs == " " then
         return
     end
-    local a = MarketplaceService:GetProductInfoAsync(tonumber(id)).AssetTypeId
+    local a = MarketplaceService:GetProductInfoAsync(sdfafs).AssetTypeId
     if tonumber(a) == 1 then
         return "Image"
     elseif tonumber(a) == 2 then
