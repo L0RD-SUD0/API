@@ -1,4 +1,4 @@
-local berry = "3696"
+local berry = "3697"
 local dubairip = "10365"
 local brokhaun = "1673"
 if game.PlaceId == "8481844229" or game.PlaceId == 8481844229 then
