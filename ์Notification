@@ -1,0 +1,9 @@
+local wefwef = Notification("NightCLAWZ Script","The free premium has been expired. So the version that you're using rn. Is free version. If you want to access OP script like flood. You have to buy the premium version.","OK",nil,nil,nil,9)
+repeat wait() until wefwef.Parent == nil
+local weiufhwueifhwef = Notification("NightCLAWZ Script","If the script copied ' Unable to copy ' to your keyboard. Please rejoin and try again.","OK",nil,nil,nil,9)
+repeat wait() until weiufhwueifhwef.Parent == nil
+local erewrrewwerr = Notification("NightCLAWZ Script","If your premium is gond and not expired yet contact us. Because premium will be gone everytime you re-install roblox.","OK",nil,nil,nil,9)
+repeat wait() until erewrrewwerr.Parent == nil
+local iruewhfuiwrhehuiwerguhiwegr = Notification("NightCLAWZ Script","If you brought premium and you still have to get key. That's mean you still have freemium version. So please contact us!","OK",nil,nil,nil,9)
+repeat wait() until iruewhfuiwrhehuiwerguhiwegr.Parent == nil
+Notification("NightCLAWZ Script","N","OK",nil,nil,nil,tonumber(3))
