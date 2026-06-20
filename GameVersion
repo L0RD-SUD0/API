@@ -1,6 +1,6 @@
 local berry = "3703"
 local dubairip = "10365"
-local brokhaun = "1673"
+local brokhaun = "1744"
 if game.PlaceId == "8481844229" or game.PlaceId == 8481844229 then
     return berry
 elseif game.PlaceId == "122485613019196" or game.PlaceId == 122485613019196 then
